@@ -1,4 +1,7 @@
 .o-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 10rem 0rem 0rem 0rem;
     padding: 0;
     width: 100%;
@@ -24,8 +27,14 @@
 
 @media (max-width: 600px) {
 
+    .o-container{
+        margin: 8rem 0rem 0rem 0rem;
+   
+       
+    }
+
     .o-back{
-        width: 20rem;
+        width: 100vw;
         height: auto;
         position: fixed;
         left: 0;
@@ -34,9 +43,8 @@
         opacity: 0.5;
     }
 
-    .o-container{
-        margin: 10rem 0rem 0rem 0rem;
 
-    }
 
   }
+
+ 

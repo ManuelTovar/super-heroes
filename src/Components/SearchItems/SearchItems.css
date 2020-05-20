@@ -1,5 +1,5 @@
 .o-search-items{
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -63,21 +63,14 @@
 
 }
 
+
 @media (max-width: 600px) {
 
-    .o-search-items{
-        margin: 0rem 0rem 1rem 0rem;
-  
-    }
-
     .o-search-items input{
-        height: 2rem;
-        max-width: 14rem;
-        width: 100%;
-        margin: 0rem 1rem 0.5rem 0rem;
-        border: 1px solid #c6c6c6;
-        border-radius: 4px;
+    margin: 0rem 0rem 1rem 0rem;
     
     }
     
   }
+
+
