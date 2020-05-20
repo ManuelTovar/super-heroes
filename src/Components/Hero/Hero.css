@@ -1,0 +1,39 @@
+.o-hero-card{
+    height: auto;
+    width: 18rem;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem; 
+    background-color: rgba(238, 238, 238, 0.9);
+    border-radius: 10px;
+    box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
+    transition:  .3s;
+
+}
+
+.o-hero-card:hover {
+    transform: scale(1.04);
+    transition:  .3s;
+}
+
+
+.o-img-container{
+    width: 15rem;
+    height: 15rem;
+    opacity: 1;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+.o-img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.o-hero-card h4{
+    font-size: 15px;
+}

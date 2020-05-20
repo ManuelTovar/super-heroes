@@ -1,0 +1,16 @@
+.o-search-result{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    color: #eb232b; 
+    font-weight: 600;
+}
+
+.o-search-result p{
+    word-wrap: break-word;
+}
+
+
+.o-search-result span{
+    font-weight: 700;
+}
