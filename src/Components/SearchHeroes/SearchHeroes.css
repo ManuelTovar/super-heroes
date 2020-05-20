@@ -27,7 +27,7 @@
     .o-back{
         width: 20rem;
         height: auto;
-        position: fix;
+        position: fixed;
         left: 0;
         bottom: 0;
         z-index: -1;
