@@ -15,8 +15,8 @@ var encrypt = ts + privKey + pubKey;
 
 class SearchHeroes extends Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             data: null
         }
@@ -145,7 +145,7 @@ class SearchHeroes extends Component {
                 return utftext;
             };
 
-            var x = Array();
+            var x = [];
             var k, AA, BB, CC, DD, a, b, c, d;
             var S11 = 7, S12 = 12, S13 = 17, S14 = 22;
             var S21 = 5, S22 = 9, S23 = 14, S24 = 20;
@@ -271,7 +271,7 @@ class SearchHeroes extends Component {
                         {
                             this.state.data.map((heroes) => {
                                 return (
-                                    <Hero key={heroes.id} resource={heroes.thumbnail.path} extension={heroes.thumbnail.extension} name={heroes.name}></Hero>
+                                    <Hero key={heroes.id} resource={heroes.thumbnail.path} extension={heroes.thumbnail.extension} name={heroes.name} comic={heroes.comics.items}></Hero>
                                 )
                             })
                         }

@@ -2,8 +2,7 @@
     height: auto;
     width: 18rem;
     margin: 1rem;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem; 
+    padding: 0.01rem 0rem 1rem 0rem;
     background-color: rgba(238, 238, 238, 0.9);
     border-radius: 10px;
     box-shadow: 1px 5px 8px rgba(109, 109, 109, 0.507);
@@ -32,8 +31,87 @@
     height: 100%;
 }
 
-
-
 .o-hero-card h4{
     font-size: 15px;
 }
+
+.o-comics{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-comics-card{
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 40rem;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.o-comics-card button{
+    font-weight: 900;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    outline: none;
+    border-radius: 1rem;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: #5d5d5d;
+    transition: all .2s;
+}
+
+.o-comics-card button:hover{
+    color: black;
+    background-color: grey;
+}
+
+.o-comics-card h4{
+    margin: 0rem 0rem 1rem 0rem;
+
+}
+
+.o-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+@media (max-width: 1440px) {
+
+    .o-comics-card{
+        max-height: 90vh;
+        font-size: 0.85rem;   
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .o-comics-card{
+ 
+        max-width: 19rem;
+        max-height: 90vh;
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+ 
